@@ -1,9 +1,10 @@
 <!doctype html>
-<html lang="en">
-
+<html>
 	<head>
 		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
+<<<<<<< HEAD
 		<title>reveal.js - Slide Backgrounds</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
@@ -20,13 +21,21 @@
 				color: #222;
 			}
 		</style>
+=======
+		<title>Hello World!</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css" id="highlight-theme">
+>>>>>>> parent of 486b035... switch index to md
 	</head>
-
 	<body>
-
 		<div class="reveal">
-
 			<div class="slides">
+<<<<<<< HEAD
 
 				<section data-background="#00ffff">
 					<h2>data-background: #00ffff</h2>
@@ -133,9 +142,27 @@
 				transition: 'linear',
 				// transitionSpeed: 'slow',
 				// backgroundTransition: 'slide'
+=======
+				<section>Slide 1</section>
+				<section>Slide 2</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+>>>>>>> parent of 486b035... switch index to md
 			});
-
 		</script>
-
 	</body>
 </html>
